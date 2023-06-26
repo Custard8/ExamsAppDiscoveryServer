@@ -4,6 +4,8 @@ eureka:
   client:
     fetch-registry: false
     register-with-eureka: false
+    service-url:
+      defaultZone: https://examapp-discovery-server.onrender.com/eureka
 spring:
   application:
     name: discovery
